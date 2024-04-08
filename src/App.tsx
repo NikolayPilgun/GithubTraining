@@ -2,9 +2,12 @@ import Header from "./components/header/Header";
 
 function App() {
 	return (
-		<div className="min-h-screen">
+		<div className="min-h-screen flex flex-col justify-between">
 			<Header />
-			Здесь будет тело проекта
+			<main>
+				<p>здесь что-то будет но потом</p>
+				<p>здесь что-то будет но потом</p>
+			</main>
 		</div>
 	);
 }
